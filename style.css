@@ -52,3 +52,24 @@ p {
 }
 
 /* Add your custom styles for btn-1, btn-2, and btn-3 */
+.btn-1{
+    Background-color: grey;
+}
+
+.btn-1:hover{
+    Background-color: black ;
+}
+.btn-2{
+    Background-color: green;
+}
+
+.btn-2:hover{
+    Background-color: yellow;
+}
+.btn-3{
+    Background-color: Blue;
+}
+
+.btn-3:hover{
+    Background-color: turquoise ;
+}
