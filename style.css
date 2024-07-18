@@ -54,27 +54,52 @@ p {
 /* Add your custom styles for btn-1, btn-2, and btn-3 */
 .btn-1{
     Background: rgb(116, 0, 104);
+    outline: none; 
+    border: none; 
     
 }
 
 .btn-1:hover{
     Background: linear-gradient(90deg, rgb(208, 84, 206), rgb(220, 181, 231));
-    transform:scale(1.2);  
+    transform:scale(1.2);
+    border:rgb(31, 1, 46);
+    color:rgb(223, 220, 225);
 }
 .btn-2{
-    Background: rgb(7, 132, 7);
+    Background: rgb(6, 184, 6);
+    outline: invert;
+    border-color: rgb(1, 51, 11);
 }
 
 .btn-2:hover{
     Background: linear-gradient(90deg, rgb(57, 249, 92), rgb(173, 230, 181));
     transform:scale(1.2);
+    border-color: chartreuse; 
 }
-.btn-3{
-    Background: rgb(8, 8, 240);
-}
+.btn-3::before{
+    content: '';
+    position: absolute;
+    Background: linear-gradient(90deg, rgb(11, 11, 115), rgb(44, 58, 111),  rgb(188, 190, 196));
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
 
-.btn-3:hover{
-    Background: linear-gradient(90deg, rgb(88, 175, 236), rgb(182, 255, 255));
+    transition: transform 400ms ease-in-out;
+    transform: scale(0);
+    transform-origin: left;
+    transform-style: preserve-3d;
+}
+ .btn-3:hover::before{
+    transform: scale(1); 
+ }
+ .btn-3:hover{
+    color: white; 
     transform:scale(1.2);
-    
+    border-style: dotted;
+ }
+.btn-3{
+    z-index: 1;
+    transition: color 1000ms ease-in-out; 
 }
