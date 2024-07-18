@@ -53,23 +53,28 @@ p {
 
 /* Add your custom styles for btn-1, btn-2, and btn-3 */
 .btn-1{
-    Background-color: grey;
+    Background: rgb(116, 0, 104);
+    
 }
 
 .btn-1:hover{
-    Background-color: black ;
+    Background: linear-gradient(90deg, rgb(208, 84, 206), rgb(220, 181, 231));
+    transform:scale(1.2);  
 }
 .btn-2{
-    Background-color: green;
+    Background: rgb(7, 132, 7);
 }
 
 .btn-2:hover{
-    Background-color: yellow;
+    Background: linear-gradient(90deg, rgb(57, 249, 92), rgb(173, 230, 181));
+    transform:scale(1.2);
 }
 .btn-3{
-    Background-color: Blue;
+    Background: rgb(8, 8, 240);
 }
 
 .btn-3:hover{
-    Background-color: turquoise ;
+    Background: linear-gradient(90deg, rgb(88, 175, 236), rgb(182, 255, 255));
+    transform:scale(1.2);
+    
 }
