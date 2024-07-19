@@ -1,40 +1,20 @@
 # [SDF05] CSS Magic Buttons
+ 
+ **Project Outline**
+ - On my custom styles, I targetted all my buttons and added a :hover to my class selctor in order to make the buttons change color and animate upwards when the cursor hovers over them.
+ - On my animations I used a transform tag to scale the buttons up when the cursor hovers over them. i used a 1.2 scale up ratio so that the buttons scale up a little bit out of the page. 
+ - I changed the background-color to each button and animated the buttons to change into gradient colors when hovered over. 
+ - I made sure that each button has unique colors and a unique appearance. 
+ - btn-1 and btn-3 used :hover to change the text color from black to white. 
+ - Other things that i made sure to add were changes in the borders of the buttons, I made sure to make each button have a unique experience with their borders 
+   - for btn-1 I removed the border completely usinng border none
+   - for btn-2 I used :hover to change the color of the the border when the cursor hovers over the button.
+   - for btn-3 I removed the border when the cursor hovers over the  button. 
+ - To create the color motion of btn-3 i used the ::before to create the color bar, and then made the transform animation for when the cursor hovers over the button. 
 
-Get ready to create animated buttons using CSS! This project focuses on creating three unique animated buttons using CSS. With this challenge, you'll dive into the world of CSS animations, transitions, and interactivity.
+ **Challenges**
+ - For this project i didnt come across any problematic things that i couldnt handle, except for the fact that having to make each button different and perform differently was somewhat hard to excecute, but i was able to handle it. 
 
-## Learning Goals
-
-By completing this project, you will learn to:
-
-- Design engaging button animations with CSS.
-- Master the use of CSS transitions and animations for interactive effects.
-
-![alt text](./images/image.png)
-
-## Project Overview
-
-### Time Estimate: 2 hours
-
-## What you Need to Do:
-
-1. **Starter Code**: Clone the starter code from GitHub for your project. The HTML structure is provided, and you'll focus on adding styles in the `style.css` file.
-
-    - Starter code can be found here: https://github.com/CodeSpace-Academy/Module_5R_StudentNo_Classcode_Group_Name-Surname_SDF05R
-
-2. **Write your CSS Styles**: Create your animations from scratch. Need a hint of inspiration? You're welcome to go through our curated buttons for inspiration: [View Reference](https://codepen.io/codespace-academy/pen/xxmWrjX). 
-
-3. **Prepare Your Repository**: 
-    - Save all chanes and update your GitHub repository with the final versions of all files.
-    - Include a `README.md` file that outlines the project, your design choices, and any notes on challenges you faced or features you're particularly proud of.
-    - Ensure your repository is set to public so it can be accessed by your code coach.
-
-4. **Submit on LMS**:
-    - Submit the link to your GitHub repository on the LMS under the project tab.
-
-Embark on this CSS journey to transform simple buttons into interactive, animated elements. Let your creativity shine and enjoy the process of bringing static elements to life!
-
-
-## Submission Guidelines
-- Submit the link to your GitHub repository on the LMS under the project tab.
-
-Embark on this CSS journey to transform simple buttons into interactive, animated elements. Let your creativity shine and enjoy the process of bringing static elements to life!
+ **What I am proud of**
+ - I am particularly proud of bieng able to make animations and understanding how to properly excecute gradients. 
+ -I am very proud of the way my btn-3 turned out especially how the blue and white gradient turned out. 
